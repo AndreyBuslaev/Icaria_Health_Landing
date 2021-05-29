@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+ul,
+li,
+img {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #4f586b;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+
+p {
+  line-height: 24px;
+}
+
+footer {
+  background-color: #3b455a;
+  width: 100%;
+  height: 115px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 64px;
+}
+
+.section-top,
+.section-center,
+.section-bottom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-block {
+  width: 100%;
+  max-width: 1312px;
+  margin: 0 30px;
+}
+
+.section-top-text {
+  margin-top: 240px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 170px;
+}
+
+.block-items {
+  width: 23%;
+  margin-top: 24px;
+}
+
+.block-items h3 {
+  margin-bottom: 16px;
+}
+
+.icon {
+  margin-bottom: 12px;
+}
+
+.container {
+  width: 100%;
+  max-width: 2080px;
+  height: 568px;
+  background: url("/img/Mask_Group.png") no-repeat center;
+  display: flex;
+  justify-content: center;
+}
+
+.container-items {
+  width: 416px;
+  color: #fff;
+  margin-top: 105px;
+}
+
+.container-items p {
+  margin: 24px 0 32px 0;
+}
+
+.btn {
+  padding: 13px 51px;
+  background: linear-gradient(236.84deg, #9c8bea 1.49%, #544695 105.35%);
+  border-radius: 50px;
+  box-shadow: -4px 4px 15px rgba(129, 103, 227, 0.2);
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: linear-gradient(236.84deg, #816be6 1.49%, #423091 105.35%);
+}
+
+.section-bottom-text {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.item img {
+  border-radius: 20px;
+}
+
+.owl-carousel {
+  margin-top: 80px;
+}
+
+.request_block {
+  width: 100%;
+  margin: 130px 0 150px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.request-info_items {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.request-info_items p {
+  margin: 24px 0 40px 0;
+}
+
+.img-request {
+  width: 100%;
+  height: 370px;
+  background: url("../img/Frame4381.svg") no-repeat center;
+  background-size: contain;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 3px dashed #8267e3;
+  background-color: inherit;
+  opacity: 0.5;
+  padding: 16px;
+  font-style: italic;
+}
+
+.input:focus {
+  opacity: 1;
+}
+
+.input:focus-within {
+  outline: none;
+}
+
+.request-info_form {
+  width: 57%;
+}
+
+form ul li {
+  margin-bottom: 32px;
+}
+
+form .btn {
+  margin-top: 50px;
+  border: none;
+}

@@ -1,0 +1,243 @@
+@media (min-width: 1200px) {
+  .desktop-hidden {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-top-text {
+    margin-top: 100px;
+  }
+  .desktop-hidden {
+    display: none !important;
+  }
+  .main-block {
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .desktop-hidden {
+    display: none !important;
+  }
+  .section-top-text {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .main-block {
+    padding: 0 10px;
+  }
+
+  .block-items {
+    width: 310px;
+  }
+  .wrapper {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .request_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .request-info_items,
+  .request-info_form {
+    width: 80%;
+  }
+  .img-request {
+    order: -1;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  body {
+    font-size: 20px;
+  }
+  .main-block {
+    padding: 0 10px;
+  }
+  .responsive-hidden {
+    display: none;
+  }
+  .section-top-text {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .owl-carousel.owl-drag .owl-item {
+    width: 200px;
+  }
+  .container {
+    width: 100%;
+    max-width: 768px;
+    background: url("/img/Women.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon-carousel {
+    width: 72px !important;
+  }
+  .section-top-text {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .block-items {
+    width: 95%;
+  }
+  .wrapper {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .request_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .request-info_items,
+  .request-info_form {
+    width: 90%;
+  }
+  .img-request {
+    order: -1;
+  }
+  .wrapper {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .block-items {
+    width: 95%;
+  }
+  .icon-carousel {
+    width: 72px !important;
+  }
+  .owl-carousel {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 599px) {
+  body {
+    font-size: 20px;
+  }
+  .main-block {
+    padding: 0 10px;
+  }
+  .section-top-text {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .responsive-hidden {
+    display: none;
+  }
+  .section-top-text {
+    margin-top: 40px;
+  }
+  .container {
+    width: 100%;
+    max-width: 600px;
+    background: url("/img/Women.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  .request_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .request-info_items,
+  .request-info_form {
+    width: 90%;
+  }
+  .img-request {
+    order: -1;
+  }
+  .form-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .block-items {
+    width: 95%;
+  }
+  .icon-carousel {
+    width: 72px !important;
+  }
+  .request_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .owl-carousel {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .main-block {
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+  .header {
+    height: 500px;
+  }
+  .container-items {
+    margin-top: 200px;
+  }
+  .section-top-text {
+    margin-top: 40px;
+  }
+  .responsive-hidden {
+    display: none;
+  }
+  .block-items {
+    width: 95%;
+  }
+  .icon-carousel {
+    width: 72px !important;
+  }
+  .container {
+    width: 100%;
+    max-width: 500px;
+    background: url("/img/Women.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  .section-bottom-text {
+    margin-top: 85px;
+  }
+  .request_block {
+    flex-direction: column;
+    align-items: center;
+    margin: 85px 0;
+  }
+  .request-info_items,
+  .request-info_form {
+    width: 90%;
+  }
+  .form-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .container-items {
+    width: 100%;
+  }
+  .img-request {
+    order: -1;
+    width: 110%;
+    height: 220px;
+  }
+  .owl-carousel {
+    margin-top: 10px;
+  }
+}
