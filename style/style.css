@@ -99,7 +99,7 @@ footer p {
   width: 100%;
   max-width: 2080px;
   height: 568px;
-  background: url("/img/Mask_Group.png") no-repeat center;
+  background: url("../img/Mask_Group.png") no-repeat center;
   display: flex;
   justify-content: center;
 }
